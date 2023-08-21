@@ -6,15 +6,21 @@
 //
 
 import UIKit
+import GoogleMaps
+
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+  
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        GMSServices.provideAPIKey("AIzaSyAyhTgh1g9oS5UwjHDVJV3rBI-ZTRZGvZo")
+        // 驗證 GoogleMaps 金鑰
+        
         return true
+        
     }
 
     // MARK: UISceneSession Lifecycle

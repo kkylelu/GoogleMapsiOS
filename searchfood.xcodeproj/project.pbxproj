@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1129816B78C0002CE390408F /* Pods_searchfood_searchfoodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF74CC821F4C5F8D13E303EF /* Pods_searchfood_searchfoodUITests.framework */; };
 		2743B59C2A8F052B000D0B73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743B59B2A8F052B000D0B73 /* AppDelegate.swift */; };
 		2743B59E2A8F052B000D0B73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743B59D2A8F052B000D0B73 /* SceneDelegate.swift */; };
 		2743B5A02A8F052B000D0B73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743B59F2A8F052B000D0B73 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 		2743B5B32A8F052C000D0B73 /* searchfoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743B5B22A8F052C000D0B73 /* searchfoodTests.swift */; };
 		2743B5BD2A8F052C000D0B73 /* searchfoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743B5BC2A8F052C000D0B73 /* searchfoodUITests.swift */; };
 		2743B5BF2A8F052C000D0B73 /* searchfoodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2743B5BE2A8F052C000D0B73 /* searchfoodUITestsLaunchTests.swift */; };
+		2FDF01440BA2894A1FD2078E /* Pods_searchfood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC0969A6550F169522C65FA0 /* Pods_searchfood.framework */; };
+		3D442B2E30C522F074D0EE57 /* Pods_searchfoodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AF86359FF05C322968DB48 /* Pods_searchfoodTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		2743B5B82A8F052C000D0B73 /* searchfoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = searchfoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2743B5BC2A8F052C000D0B73 /* searchfoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchfoodUITests.swift; sourceTree = "<group>"; };
 		2743B5BE2A8F052C000D0B73 /* searchfoodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchfoodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		309AC83ED89DCFD9B8482BF9 /* Pods-searchfood-searchfoodUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-searchfood-searchfoodUITests.release.xcconfig"; path = "Target Support Files/Pods-searchfood-searchfoodUITests/Pods-searchfood-searchfoodUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5C471A528ACDFB8332650A89 /* Pods-searchfoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-searchfoodTests.release.xcconfig"; path = "Target Support Files/Pods-searchfoodTests/Pods-searchfoodTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4AF86359FF05C322968DB48 /* Pods_searchfoodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_searchfoodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA45C4A6F1E92A6AC3006303 /* Pods-searchfood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-searchfood.release.xcconfig"; path = "Target Support Files/Pods-searchfood/Pods-searchfood.release.xcconfig"; sourceTree = "<group>"; };
+		AC0969A6550F169522C65FA0 /* Pods_searchfood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_searchfood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF74CC821F4C5F8D13E303EF /* Pods_searchfood_searchfoodUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_searchfood_searchfoodUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA2C47D25828A14D117BB81 /* Pods-searchfoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-searchfoodTests.debug.xcconfig"; path = "Target Support Files/Pods-searchfoodTests/Pods-searchfoodTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFAF9B840FD40800EC91E83C /* Pods-searchfood-searchfoodUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-searchfood-searchfoodUITests.debug.xcconfig"; path = "Target Support Files/Pods-searchfood-searchfoodUITests/Pods-searchfood-searchfoodUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4BF2EF0182E89CAE50C2257 /* Pods-searchfood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-searchfood.debug.xcconfig"; path = "Target Support Files/Pods-searchfood/Pods-searchfood.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FDF01440BA2894A1FD2078E /* Pods_searchfood.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D442B2E30C522F074D0EE57 /* Pods_searchfoodTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1129816B78C0002CE390408F /* Pods_searchfood_searchfoodUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				2743B5B12A8F052C000D0B73 /* searchfoodTests */,
 				2743B5BB2A8F052C000D0B73 /* searchfoodUITests */,
 				2743B5992A8F052B000D0B73 /* Products */,
+				8EE7DE48531DB717204025CC /* Pods */,
+				2D8622C98A20D4E6771FA305 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +144,30 @@
 			path = searchfoodUITests;
 			sourceTree = "<group>";
 		};
+		2D8622C98A20D4E6771FA305 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC0969A6550F169522C65FA0 /* Pods_searchfood.framework */,
+				BF74CC821F4C5F8D13E303EF /* Pods_searchfood_searchfoodUITests.framework */,
+				A4AF86359FF05C322968DB48 /* Pods_searchfoodTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EE7DE48531DB717204025CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4BF2EF0182E89CAE50C2257 /* Pods-searchfood.debug.xcconfig */,
+				AA45C4A6F1E92A6AC3006303 /* Pods-searchfood.release.xcconfig */,
+				EFAF9B840FD40800EC91E83C /* Pods-searchfood-searchfoodUITests.debug.xcconfig */,
+				309AC83ED89DCFD9B8482BF9 /* Pods-searchfood-searchfoodUITests.release.xcconfig */,
+				EBA2C47D25828A14D117BB81 /* Pods-searchfoodTests.debug.xcconfig */,
+				5C471A528ACDFB8332650A89 /* Pods-searchfoodTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2743B5C22A8F052C000D0B73 /* Build configuration list for PBXNativeTarget "searchfood" */;
 			buildPhases = (
+				EA5DBC32585AEB60C46A1B06 /* [CP] Check Pods Manifest.lock */,
 				2743B5942A8F052B000D0B73 /* Sources */,
 				2743B5952A8F052B000D0B73 /* Frameworks */,
 				2743B5962A8F052B000D0B73 /* Resources */,
+				00E4CAB23039EEC416A4DF14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2743B5C52A8F052C000D0B73 /* Build configuration list for PBXNativeTarget "searchfoodTests" */;
 			buildPhases = (
+				2C9378B9622A0648A98E7114 /* [CP] Check Pods Manifest.lock */,
 				2743B5AA2A8F052C000D0B73 /* Sources */,
 				2743B5AB2A8F052C000D0B73 /* Frameworks */,
 				2743B5AC2A8F052C000D0B73 /* Resources */,
@@ -169,9 +213,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2743B5C82A8F052C000D0B73 /* Build configuration list for PBXNativeTarget "searchfoodUITests" */;
 			buildPhases = (
+				D2CC66BEE120CA02FB53FCA7 /* [CP] Check Pods Manifest.lock */,
 				2743B5B42A8F052C000D0B73 /* Sources */,
 				2743B5B52A8F052C000D0B73 /* Frameworks */,
 				2743B5B62A8F052C000D0B73 /* Resources */,
+				EB364E8EB09AA2678E56E1B4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00E4CAB23039EEC416A4DF14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-searchfood/Pods-searchfood-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-searchfood/Pods-searchfood-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-searchfood/Pods-searchfood-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C9378B9622A0648A98E7114 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-searchfoodTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2CC66BEE120CA02FB53FCA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-searchfood-searchfoodUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA5DBC32585AEB60C46A1B06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-searchfood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB364E8EB09AA2678E56E1B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-searchfood-searchfoodUITests/Pods-searchfood-searchfoodUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-searchfood-searchfoodUITests/Pods-searchfood-searchfoodUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-searchfood-searchfoodUITests/Pods-searchfood-searchfoodUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2743B5942A8F052B000D0B73 /* Sources */ = {
@@ -432,6 +581,7 @@
 		};
 		2743B5C32A8F052C000D0B73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4BF2EF0182E89CAE50C2257 /* Pods-searchfood.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -445,6 +595,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +611,7 @@
 		};
 		2743B5C42A8F052C000D0B73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA45C4A6F1E92A6AC3006303 /* Pods-searchfood.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -473,6 +625,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +641,7 @@
 		};
 		2743B5C62A8F052C000D0B73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA2C47D25828A14D117BB81 /* Pods-searchfoodTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +662,7 @@
 		};
 		2743B5C72A8F052C000D0B73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C471A528ACDFB8332650A89 /* Pods-searchfoodTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +683,7 @@
 		};
 		2743B5C92A8F052C000D0B73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFAF9B840FD40800EC91E83C /* Pods-searchfood-searchfoodUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +702,7 @@
 		};
 		2743B5CA2A8F052C000D0B73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 309AC83ED89DCFD9B8482BF9 /* Pods-searchfood-searchfoodUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
